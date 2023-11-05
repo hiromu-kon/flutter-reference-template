@@ -3,8 +3,18 @@
   "configurations": [
     {
       "name": "flutter_reference_template",
+      "type": "dart",
       "request": "launch",
-      "type": "dart"
+      "flutterMode": "debug",
     },
+    {
+      "name": "flutter_reference_template(useDevicePreview)",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=USE_DEVICE_PREVIEW=true",
+      ]
+    }
   ]
 }
